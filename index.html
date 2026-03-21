@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <link href="public/favicon.png" rel="icon" />
+    <title>Pat the pichu!</title>
+  </head>
+  <body>
+    <main class="game-layout">
+      <aside id="stats-panel" class="stats-panel"></aside>
+      <section class="game-area">
+        <p>Pats: <span id="click-count">0</span></p>
+        <button id="click-button">
+          <img class="image-button" src="public/pichu.jpg" alt="Pichu" width="300" />
+        </button>
+        <div contenteditable="true">Pichu! (you can change his name here)</div>
+      </section>
+      <aside class="shop-panel">
+        <div id="shop-items"></div>
+      </aside>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
