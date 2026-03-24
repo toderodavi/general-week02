@@ -4,6 +4,3 @@ This project is a clicker game made with JS, CSS and HTML. You click in the pich
 You can play the game here: https://toderodavi.github.io/general-week02/
 
 Preview:
-
-
-This should just explain what it is, how you made it, how people can use it, and some pictures!
